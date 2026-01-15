@@ -1,0 +1,48 @@
+# --- JAVA & MAVEN (Standardul tau) ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Siguranta pentru fisiere compilate (in caz ca scapa din target)
+*.class
+*.log
+*.jar
+*.war
+
+# --- INTELLIJ IDEA (Setarile proiectului tau) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# --- ECLIPSE (In caz ca deschide cineva cu Eclipse) ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# --- NETBEANS ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# --- VS CODE ---
+.vscode/
+
+# --- FRONTEND / WEB (Specific pentru Vaadin/Node) ---
+# Daca Vaadin descarca chestii de frontend, nu vrem asta pe git
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+webpack.generated.js
+
+# --- SISTEM DE OPERARE ---
+.DS_Store
+Thumbs.db
